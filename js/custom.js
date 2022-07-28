@@ -215,11 +215,23 @@ window.onload = function () {
 /*== map js ==*/
 
 function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(51.508742, -0.120850),
-        zoom: 5,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    // var mapProp = {
+    //     center: new google.maps.LatLng(-18.50799375281463, -54.75499885118324),
+    //     zoom: 5,
+    // };
+    // var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+    // function initMap() {
+
+        var macc = {lat: -18.50799375281463, lng: -54.75499885118324};
+  
+        var map = new google.maps.Map(
+  
+            document.getElementById('googleMap'), {zoom: 18, center: macc});
+  
+        var marker = new google.maps.Marker({position: macc, map: map});
+  
+    //   }
 }
 
 /*== map js ==*/
