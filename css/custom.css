@@ -1153,6 +1153,9 @@ header {
     right: 10px;
 }
 .right-header {
+    /* display: none; */
+}
+#info-email {
     display: none;
 }
 .navbar-header {
@@ -1307,7 +1310,7 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 .serv p {display: none;}
 .inner-services {margin: 0 0;}
 .form-contant {float: left;position: absolute;width: 40%;height: 100%;background: rgba(0,0,0,.8);z-index: 1;padding: 15px 30px;}
-#googleMap {height: 540px !important;}
+#googleright-header {height: 540px !important;}
 .footer-info h3, .subcriber-info h3 {float: left;width: 100%;}
 .footer-info p {float: left;width: 100%;}
 	
